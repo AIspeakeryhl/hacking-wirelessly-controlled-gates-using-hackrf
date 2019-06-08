@@ -1,0 +1,40 @@
+Radio Hacking: Cars, Hardware, and more! - Samy Kamkar - AppSec California 2016
+Really helpful video 
+It’s total of 51 mintues video; however, for the purpose of our project, first 27 minutes of the video is related. But still really fun to watch the whole video :)
+https://www.youtube.com/watch?v=1RipwqJG50c
+
+Digital Ding Dong Ditch Prank - hacking wireless doorbells w/Arduino and RTL-SDR
+https://www.youtube.com/watch?v=BnwBdeQB7vQ
+http://samy.pl/dingdong/
+
+OpenSesame - hacking garages in seconds using a Mattel toy
+https://www.youtube.com/watch?v=iSSRaIU9_Vc
+http://samy.pl/opensesame/
+
+How to Hack a Garage Door in Under 10 Seconds and What You Can Do About It
+https://www.itstactical.com/intellicom/physical-security/how-to-hack-a-garage-door-in-under-10-seconds-and-what-you-can-do-about-it/
+
+Software Defined Radio with HackRF, Lesson 11: Replay
+https://www.youtube.com/watch?v=CyYteFiIozM&feature=youtu.be
+
+Opening up car door with HackRF (w/ operator diagrams Korean version)
+https://cafe.naver.com/hackrf/6
+
+5/11/2019 - Meeting #1
+Used RTL-SDR and HackRF devices to identify the key fob signal
+RTL-SDR received the frequency around 390 MHZ
+HackRF received the frequency around 300 MHZ
+
+SDR/HackRF One: Max Setup and Basics
+https://www.jeffreythompson.org/blog/2015/10/11/sdrhackrf-one-mac-setup-and-basics/
+
+I finally got my HackRF and I have a Mac… Now what?
+https://k1fm.us/2014/08/i-finally-got-my-hackrf-and-i-have-a-mac-now-what/
+ 
+GNU Radio Installation
+https://wiki.gnuradio.org/index.php/MacInstall
+GNU Radio Companion & Installation (GUI tool for signal flow graph)
+https://wiki.gnuradio.org/index.php/GNURadioCompanion
+Step-by-step: How to install GNU Radio on your Mac OS X with RTL-SDR support
+https://aaronscher.com/wireless_com_SDR/MacOSX_install_gnu_radio.html
+
