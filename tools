@@ -1,0 +1,8 @@
+to recieve signal we use following tools
+hardwares:
+HackRF One(300$) 1MHz - 6GHz
+RTLSDR(20$) 24 - 1766 MHz
+software:
+gqrx: recieve and recording signals
+gnuradio
+audacity:decode signal
