@@ -1,3 +1,6 @@
 This project aims to hack wirelessly controlled gates using hackrf
 The work is done on macOS Mojave 10.14.5
 Basically, you need a hackrf device and installing macports first.
+
+video demo is on yutube:
+https://www.youtube.com/watch?v=AyWHjEQe2uI&list=PLS-uN80_WMVOZ0rezjDUyfE8fMq3DGgDc
