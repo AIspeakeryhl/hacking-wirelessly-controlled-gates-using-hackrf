@@ -1,0 +1,31 @@
+#install 
+sudo port install gr-osmosdr +full
+sudo port install gr-fosphor
+#after it, you can now use hackrf to record and transmit signal
+#to see your device information
+hacfrf_info
+
+#Found HackRF board.
+#Board ID Number: 2 (HackRF One)
+#Firmware Version: git-44df9d1
+#Part ID Number: 0x00594f49 0x00594f49
+#Serial Number: 0x00000000 0x00000000 0x4xx 0x2xx
+
+#record
+hackrf_transfer -r test.bin 
+[-i if_freq_hz] # Intermediate Frequency (IF) in Hz [2150MHz to 2750MHz].
+[-o lo_freq_hz] # Front-end Local Oscillator (LO) frequency in Hz [84MHz to 5400MHz].
+[-m image_reject] # Image rejection filter selection, 0=bypass, 1=low pass, 2=high pass.
+[-a amp_enable] # RX/TX RF amplifier 1=Enable, 0=Disable.
+[-p antenna_enable] # Antenna port power, 1=Enable, 0=Disable.
+[-l gain_db] # RX LNA (IF) gain, 0-40dB, 8dB steps
+[-g gain_db] # RX VGA (baseband) gain, 0-62dB, 2dB steps
+[-x gain_db] # TX VGA (IF) gain, 0-47dB, 1dB steps
+[-s sample_rate_hz] # Sample rate in Hz (8/10/12.5/16/20MHz, default 10MHz).
+[-n num_samples] # Number of samples to transfer (default is unlimited).
+[-c amplitude] # CW signal source mode, amplitude 0-127 (DC value to DAC)
+[-b baseband_filter_bw_hz] # Set baseband filter bandwidth in MHz.
+Possible values: 1.75/2.5/3.5/5/5.5/6/7/8/9/10/12/14/15/20/24/28MHz, default < sample_rate_hz.
+
+#transmit
+hackrf_transfer -t test.bin 
