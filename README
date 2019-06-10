@@ -1,4 +1,4 @@
-This project aims to hack wirelessly controlled gates using software defined radio, RTL_SDR, and HackRF One.
+This project presents how to exploit wirelessly-controlled garages/gates using software defined radio (SDR), RTL-SDR, and HackRF One device. Furthermore, it will investigates in-depth how these features work, and how they can be sniffed.
 The work is done on macOS Mojave 10.14.5
 
 In order to use the following tools, macports needs to be installed first.
