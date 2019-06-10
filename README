@@ -1,6 +1,14 @@
-This project aims to hack wirelessly controlled gates using hackrf
+This project aims to hack wirelessly controlled gates using software defined radio, RTL_SDR, and HackRF One.
 The work is done on macOS Mojave 10.14.5
-Basically, you need a hackrf device and installing macports first.
 
-video demo is on yutube:
+In order to use the following tools, macports needs to be installed first.
+
+[Tools Used]
+Spectrum Analyzer: GQRX (http://gqrx.dk/download)
+
+[Hardware Devices Used]
+Signal Receiving Device: RTL-SDR (about $20)
+Signal Receive/Transmit Device: HackRF One (abour $300)
+
+Video demos are uploaded on YouTube:
 https://www.youtube.com/watch?v=AyWHjEQe2uI&list=PLS-uN80_WMVOZ0rezjDUyfE8fMq3DGgDc
